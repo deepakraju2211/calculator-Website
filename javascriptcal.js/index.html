@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="border">
+    <table id="borderbox">          
+        <tr>
+            <td colspan="3"><input type="text" placeholder="Enter number" id="box"></td>
+            <td><button onclick="clearfunc()">C</button></td>
+        </tr>
+        <tr>
+            <td><button value="1" onclick="clickingfunc(1)">1</button></td>
+            <td><button value="2" onclick="clickingfunc(2)">2</button></td>
+            <td><button value="3" onclick="clickingfunc(3)">3</button></td>
+            <td><button value="/" onclick="clickingfunc('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button value="4" onclick="clickingfunc(4)">4</button></td>
+            <td><button value="5" onclick="clickingfunc(5)">5</button></td>
+            <td><button value="6" onclick="clickingfunc(6)">6</button></td>
+            <td><button value="*" onclick="clickingfunc('*')">*</button></td>
+        </tr>
+        <tr>
+           <td><button value="7" onclick="clickingfunc(7)">7</button></td>
+           <td><button value="8" onclick="clickingfunc(8)">8</button></td>
+           <td><button value="9" onclick="clickingfunc(9)">9</button></td>
+           <td><button value="-" onclick="clickingfunc('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button value="0" onclick="clickingfunc(0)">0</button></td>
+            <td><button value="." onclick="clickingfunc('.')">.</button></td>
+            <td><button value="=" onclick="calc()">=</button></td>
+            <td><button value="+" onclick="clickingfunc('+')">+</button></td>
+        </tr>
+    </table>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
